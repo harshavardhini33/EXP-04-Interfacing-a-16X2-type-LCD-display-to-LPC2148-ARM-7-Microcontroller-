@@ -1,8 +1,8 @@
 # EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
 
-Name :ezhil mathi  r
+Name :harshavardhini
 
-Roll no :212221230026
+Roll no :212221240015
 
  
 
