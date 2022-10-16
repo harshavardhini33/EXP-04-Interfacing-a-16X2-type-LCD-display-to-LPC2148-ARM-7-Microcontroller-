@@ -1,15 +1,21 @@
-# EXP 04 Inerfacing a 16X2 type LCD display to LPC2148 ARM 7 Microcontroller
-```
-Name : harshavardhini . m
-Roll no : 212221240015
-```
-## Aim
+# EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
+
+Name :ezhil mathi  r
+
+Roll no :212221230026
+
+ 
+
+
+## Interfacing a 16X2 type LCD display to LPC2148 ARM 7 Microcontroller 
+
+## Aim: 
 To Interface 16X2 type LCD display to LPC2148 ARM 7 and write a code for displaying a string to it
-## Components required
+## Components required:
 Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
 ## Theory 
  
-# LCD16X2 
+## LCD16X2 
  
  ![image](https://user-images.githubusercontent.com/36288975/195774401-e3bffb44-0d3d-4b7e-b374-7a7a7ef60d48.png)
 
@@ -115,6 +121,8 @@ Step 9: Select the hex file from the Kiel program folder and import the program 
 
 ## Kiel - Program  
 ```
+
+
 #include <lpc214x.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -177,31 +185,38 @@ void LCD_CHAR (char msg)
 
 int main(void)
 {
-	uint8_t j;
-	char val_j[3];
-	j = 0;
-	
+
 	LCD_INIT();
-	LCD_STRING("19EE309");//first line
+	LCD_STRING("212221230083");//first line
 	LCD_CMD(0xC0);
-	LCD_STRING("ARM");//second line
+	LCD_STRING("RITHIGA SRI.B");//second line
 
 	return 0;
 }
 ```
+
+
+
+
 ## Proteus simulation 
+![pm](a.png)
 
-### before simulation 
-![OUTPUT](./1.png)
 
-### after simulation 
-![OUTPUT](./2.png)
 
-## Layout Diagram 
-![output](./3.png)
 
-## Result
-Interfaced an LCD with ARM microcontroller is executed and displayed the strings.
+
+
+![p](b.png)
+
+
+
+##  layout Diagram 
+![pm](c.png)
+
+
+## Result :
+
+Interfaced an LCD with ARM microcontroller is executed and displayed the strings  
 
  
 
